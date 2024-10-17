@@ -16,7 +16,7 @@ int main()
     switch (chose)
     {
         case 1:
-            sum();
+            printf("%d", sum(55, 60));
             break;
 
         case 2:
@@ -24,7 +24,7 @@ int main()
             break;
 
         case 3:
-            Multiplication();
+            multiplication();
             break;
 
         case 4:

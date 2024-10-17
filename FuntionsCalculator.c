@@ -2,9 +2,9 @@
 #include <string.h>
 #include "FuntionsCalculator.h"
 
-int sum()
+int sum (int num1, int num2)
 {
-    return 0;
+    return num1 + num2;
 }
 
 int subtraction()
@@ -17,7 +17,7 @@ int division()
     return 0;
 }
 
-int Multplication()
+int multiplication()
 {
     return 0;
 }
