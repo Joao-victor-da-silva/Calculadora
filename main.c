@@ -26,7 +26,7 @@ int main()
             break;
 
         case 3:
-            printf("\n%d\n", division(10, 5));
+            printf("\n%.2f\n", division(15, 2));
             break;
 
         case 4:
