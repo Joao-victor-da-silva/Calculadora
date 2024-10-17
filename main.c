@@ -15,7 +15,7 @@ int main()
     scanf("%d", &chose);
 
     int num1, num2;
-    if(chose == 1 || chose == 2 || chose == 3 || chose == 4)
+    if(chose != 5)
     {
         printf("Digite um numero:");
         scanf("%d", &num1);
