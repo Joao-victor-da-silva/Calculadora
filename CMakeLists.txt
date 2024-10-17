@@ -1,6 +1,8 @@
-cmake_minimum_required(VERSION 3.28)
-project(calculadora C)
+cmake_minimum_required(VERSION 3.27)
+project(Caculator C)
 
-set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD 23)
 
-add_executable(calculadora main.c)
+add_executable(Caculator main.c
+        FuntionsCalculator.c
+        FuntionsCalculator.h)

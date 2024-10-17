@@ -1,3 +1,3 @@
-C:/Users/JoaoV/Desktop/calculadora/cmake-build-debug/CMakeFiles/calculadora.dir
-C:/Users/JoaoV/Desktop/calculadora/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/JoaoV/Desktop/calculadora/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Dowloads/Projeto ex C/Calculadora/cmake-build-debug/CMakeFiles/Caculator.dir
+D:/Dowloads/Projeto ex C/Calculadora/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Dowloads/Projeto ex C/Calculadora/cmake-build-debug/CMakeFiles/rebuild_cache.dir

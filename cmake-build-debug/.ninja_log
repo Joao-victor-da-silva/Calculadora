@@ -1,0 +1,14 @@
+# ninja log v5
+0	79	7508291335232350	CMakeFiles/Caculator.dir/FuntionsCalculator.c.obj	30b75b426b156cdc
+11	88	7508291335332341	CMakeFiles/Caculator.dir/main.c.obj	9f3e2b6400ead791
+88	288	7508291337302349	Caculator.exe	b627cf10fcf5518f
+1	79	7508291491079589	CMakeFiles/Caculator.dir/main.c.obj	9f3e2b6400ead791
+79	181	7508291492089582	Caculator.exe	b627cf10fcf5518f
+1	67	7508291536814580	CMakeFiles/Caculator.dir/main.c.obj	9f3e2b6400ead791
+67	165	7508291537760332	Caculator.exe	b627cf10fcf5518f
+1	75	7508292837683852	CMakeFiles/Caculator.dir/main.c.obj	9f3e2b6400ead791
+75	170	7508292838608982	Caculator.exe	b627cf10fcf5518f
+1	74	7508292969495031	CMakeFiles/Caculator.dir/main.c.obj	9f3e2b6400ead791
+74	179	7508292970515018	Caculator.exe	b627cf10fcf5518f
+1	75	7508293034068264	CMakeFiles/Caculator.dir/main.c.obj	9f3e2b6400ead791
+76	174	7508293035028264	Caculator.exe	b627cf10fcf5518f

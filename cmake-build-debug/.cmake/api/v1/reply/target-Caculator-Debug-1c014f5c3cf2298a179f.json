@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "calculadora.exe"
+			"path" : "Caculator.exe"
 		},
 		{
-			"path" : "calculadora.pdb"
+			"path" : "Caculator.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -38,7 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu2x -fdiagnostics-color=always"
 				}
 			],
 			"language" : "C",
@@ -48,15 +48,16 @@
 				[
 					1
 				],
-				"standard" : "11"
+				"standard" : "23"
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
-	"id" : "calculadora::@6890427a1f51a3e7e1df",
+	"id" : "Caculator::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +77,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "calculadora",
-	"nameOnDisk" : "calculadora.exe",
+	"name" : "Caculator",
+	"nameOnDisk" : "Caculator.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -89,7 +90,15 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2
 			]
 		}
 	],
@@ -100,6 +109,17 @@
 			"compileGroupIndex" : 0,
 			"path" : "main.c",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FuntionsCalculator.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "FuntionsCalculator.h",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"
