@@ -12,9 +12,9 @@ int subtraction(int num1, int)
     return 0;
 }
 
-int division()
+int division(int num1, int num2)
 {
-    return 0;
+    return num1 / num2;
 }
 
 int multiplication()

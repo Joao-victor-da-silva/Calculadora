@@ -10,7 +10,7 @@ int main()
     printf("\n Calculadora Padrao\n");
     printf("=====================");
 
-    printf("\n 1.Soma\n 2.Subtracao\n 3.Multiplicacao\n 4.Divisao\n 5.Sair\n");
+    printf("\n 1.Soma\n 2.Subtracao\n 3.Divisao\n 4.Multiplicacao\n 5.Sair\n");
     scanf("%d", &chose);
 
     switch (chose)
@@ -24,7 +24,7 @@ int main()
             break;
 
         case 3:
-            multiplication();
+            printf("%d", division(10, 5));
             break;
 
         case 4:
