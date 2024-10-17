@@ -14,27 +14,40 @@ int main()
     printf("O que deseja fazer ? Digite o numero correspondente:");
     scanf("%d", &chose);
 
+    int num1, num2;
+    if(chose == 1 || chose == 2 || chose == 3 || chose == 4)
+    {
+        printf("Digite um numero:");
+        scanf("%d", &num1);
+
+        printf("Digite outro numero:");
+        scanf("%d", &num2);
+    };
 
     switch (chose)
     {
         case 1:
-            printf("\n%d\n\n", sum(55, 60));
+            printf("\n%d\n\n", sum(num1, num2));
             break;
 
         case 2:
-            printf("\n%d\n", subtraction(10, 5));
+            printf("\n%d\n", subtraction(num1, num2));
             break;
 
         case 3:
-            printf("\n%.2f\n", division(15, 2));
+            printf("\n%.2f\n", division(num1, num2));
             break;
 
         case 4:
-            printf("\n%d\n", multiplication(10, 5));
+            printf("\n%d\n", multiplication(num1, num2));
             break;
 
         case 5:
             return 0;
+
+        default:
+            printf("\nFuncao invalida!\n\n");
+
     }
     main();
     return 0;
