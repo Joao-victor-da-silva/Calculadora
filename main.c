@@ -20,7 +20,7 @@ int main()
             break;
 
         case 2:
-            subtraction();
+            printf("%d", subtraction(10, 5));
             break;
 
         case 3:

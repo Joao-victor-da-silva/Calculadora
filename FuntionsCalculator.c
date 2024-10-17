@@ -7,7 +7,7 @@ int sum (int num1, int num2)
     return num1 + num2;
 }
 
-int subtraction()
+int subtraction(int num1, int)
 {
     return 0;
 }
